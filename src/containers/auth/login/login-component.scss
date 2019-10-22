@@ -1,0 +1,79 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: #7e8eb2;
+    background-image: url('../../../assets/images/background.jpg');
+    
+    .card-login {
+        border-radius: 15px;
+        width: 470px;
+        .ant-card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            .avatar-user {
+                align-items: center;
+                margin: 10px;
+            }
+
+            .login-form {
+                max-width: 300px;
+                .login-form-button {
+                width: 100%;
+                }
+                .captcha-input {
+                    width: 150px;
+                    margin-right: 5px;
+                }
+                img {
+                    height: 60px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+#logo {
+    font-family: 'Open Sans', sans-serif;
+    color: #1d8efa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    /* line-height: 2; */
+    text-shadow: #d5ebf1 4px 4px 0;
+    position: relative;
+}
+
+#logo:after {
+  content:"dreamdealer";
+  position: absolute;
+  left: 8px;
+  top: 32px;
+}
+
+#logo:after {
+  background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+  background-size: 4px 4px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: -5;
+  display: block;
+  text-shadow: none;
+}
+
+.anticon-redo{
+    border: 1px solid #1d8efa;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

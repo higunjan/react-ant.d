@@ -1,0 +1,40 @@
+.meeting-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    // background-color: #7e8eb2;
+    
+    .card {
+        // border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        .heading {
+            font-size: 20px;
+            font-weight: 500;
+            color: #1890FF;
+            margin: 10px;
+        }
+        .ant-card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .meeting-form {
+                width: 500px;
+                max-width: 500px;
+                ul.jsx-4179805763 {
+                    z-index: 1000;
+                    background-color: #ffffff;
+                }
+                .meeting-form-button {
+                width: 100%;
+                }
+            }
+        }
+    }
+}
